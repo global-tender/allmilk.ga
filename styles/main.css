@@ -1,0 +1,79 @@
+html {
+  font-family: 'Roboto', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+html {
+  background: #32385b;
+  height: 100%; }
+
+body {
+  height: 100%;
+  background: url(../images/background.jpg) center top/cover; }
+
+.logo {
+  text-align: center;
+  padding-top: 50px; }
+  .logo img {
+    width: 600px;
+    margin-right: -50px; }
+    @media screen and (max-width: 768px) {
+      .logo img {
+        width: 250px;
+        margin-right: -20px; } }
+
+.video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  overflow: hidden; }
+  .video video {
+    display: block;
+    min-width: 100%;
+    min-height: 100%; }
+
+.content {
+  position: relative;
+  z-index: 2;
+  background: rgba(50, 56, 91, 0.5);
+  min-height: 100%; }
+
+.desc {
+  text-align: center;
+  font-weight: 500;
+  font-size: 22px;
+  color: #fff; }
+  @media screen and (max-width: 768px) {
+    .desc {
+      font-size: 16px; } }
+  .desc table {
+    margin: 0 auto; }
+    .desc table td {
+      padding: 0 5px; }
+
+.text {
+  width: 700px;
+  margin: 0 auto;
+  text-align: center;
+  color: #fff; }
+  @media screen and (max-width: 768px) {
+    .text {
+      width: auto;
+      padding: 0 25px; } }
+  .text h1 {
+    font-weight: 300;
+    font-size: 30px; }
+    @media screen and (max-width: 768px) {
+      .text h1 {
+        font-size: 20px; } }
+  .text a {
+    color: inherit; }
+  .text p {
+    font-size: 18px; }
+    @media screen and (max-width: 768px) {
+      .text p {
+        font-size: 16px; } }
+
+/*# sourceMappingURL=main.css.map */

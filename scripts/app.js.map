@@ -1,0 +1,1 @@
+{"version":3,"sources":["app.js"],"names":[],"mappings":";;AAAA,EAAA,YAAA;AACA,UAAA,GAAA,CAAA,kBAAA;AACA,CAFA","file":"app.js","sourcesContent":["$(function(){\n  console.log('JS TEST MESSAGE!');\n});\n"],"sourceRoot":"/source/"}
