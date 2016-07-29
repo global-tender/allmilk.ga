@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, minimal-ui">
     <title>All.Milk – Доставка домашнего молока</title>
     <link rel="stylesheet" href="styles/vendor.css">
-    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" type="text/css" href="/scripts/datetimepicker/jquery.datetimepicker.min.css"/>
+    <link rel="stylesheet" href="styles/main.css?0">
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700&amp;subset=latin,cyrillic" rel="stylesheet" type="text/css">
     <script src="https://use.fontawesome.com/1ed48351d1.js"></script>
     <script type="text/javascript">
@@ -46,14 +47,29 @@
       </div>
       <div class="desc">
         <div style="font-size: 25px;">1л. – 100₽<sup>*</sup></div>
-        <div style="font-size: 13px;"><sup>*</sup> при покупке 3 литров и больше</div>
+        <div style="font-size: 13px;"><sup>*</sup> при покупке 3-х литров и больше</div>
         <div style="opacity: .7; margin-top: 20px;">
           <div style="font-size: 15px;">1л. – 120₽<sup>**</sup></div>
-          <div style="font-size: 10px;"><sup>**</sup> при покупке меньше 3 литров</div>
+          <div style="font-size: 10px;"><sup>**</sup> при покупке меньше 3-х литров</div>
         </div>
       </div>
+      <div class="text">
+        <p><a href="#" class="order_button" onclick="return orderForm();">Сделать заказ</a></p>
+      </div>
     </div>
+
     <script src="scripts/vendor.js"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+    <!-- Add fancyBox main JS and CSS files -->
+    <script type="text/javascript" src="/scripts/fancybox/jquery.fancybox.pack.js?v=2.1.5"></script>
+    <link rel="stylesheet" type="text/css" href="/scripts/fancybox/jquery.fancybox.css?v=2.1.5" media="screen" />
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/0.9.0/jquery.mask.min.js"></script>
+
+    <script type="text/javascript" src="/scripts/datetimepicker/jquery.datetimepicker.full.min.js"></script>
+
     <script src="scripts/app.js"></script>
   </body>
 </html>
