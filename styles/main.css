@@ -125,6 +125,10 @@ body {
 }
 
 
+.fancybox-outer, .fancybox-inner, .fancybox-skin {
+  border-radius: 10px !important;
+}
+
 .modal-wrap {
   border: rgba(14, 103, 0, 0.75) solid 3px;
   padding-top: 5px;
@@ -169,7 +173,7 @@ body {
   font-size: 14px;
   color: #222;
   resize: none;
-  height: 100px;
+  height: 44px;
   padding: 15px;
   margin-bottom: 10px;
   outline: none;
@@ -181,7 +185,7 @@ body {
   -ms-border-radius:5px;
 }
 .order_form input[name=order_phone] {
-  width: 122px;
+  width: 124px;
 }
 .order_form input[name=order_amount] {
   width: 150px;
@@ -204,6 +208,8 @@ body {
   -o-transition: .5s all;
   -ms-transition: .5s all;
   -moz-transition: .5s all;
+  margin: 0 auto;
+  display: block;
 }
 .order_form input[type=submit]:hover {
   background: rgba(14, 103, 0, 0.75);
