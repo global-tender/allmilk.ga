@@ -246,7 +246,7 @@ body {
   width: 7px;
 }
 
-.order_form label.desktop_hidden {
+.order_form .desktop_hidden {
   display: none;
 }
 
@@ -270,7 +270,7 @@ body {
     position: relative;
   }
 
-  .order_form label.desktop_hidden {
+  .order_form .desktop_hidden {
     display: block;
   }
 
