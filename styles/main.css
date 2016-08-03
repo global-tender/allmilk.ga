@@ -246,6 +246,10 @@ body {
   width: 7px;
 }
 
+.order_form label.desktop_hidden {
+  display: none;
+}
+
 @media only screen and (max-width: 480px) {
 
   .order_form input[type="text"], .order_form input[type="number"]{
@@ -264,6 +268,10 @@ body {
     margin-top: -23px;
     top: 35px;
     position: relative;
+  }
+
+  .order_form label.desktop_hidden {
+    display: block;
   }
 
 }
