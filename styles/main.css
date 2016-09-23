@@ -81,7 +81,7 @@ body {
 .order_button {
   position: relative;
   padding: 10px 20px;
-  border: dashed 1px #fff;
+  border: double 2px rgb(0, 196, 255);
   -webkit-border-radius: 14px;
   -moz-border-radius: 14px;
   border-radius: 14px;
@@ -92,36 +92,22 @@ body {
   margin: 0 auto;
   text-align: center;
   display: table;
+
+  transition: .5s all;
+  -webkit-transition: 1.2s all;
+  -o-transition: 1.2s all;
+  -ms-transition: 1.2s all;
+  -moz-transition: 1.2s all;
 }
 
 .order_button:hover{
   color: #ffffff;
-}
-
-.order_button:before{
-  content: "";
-  position: absolute;
-  display: block;
-  left: 50%;
-  top: 50%;
-  width: 0;
-  height: 0;
-  background: rgba(35, 255, 0, 0.2);
-  -webkit-border-radius: 500px;
-  -moz-border-radius: 500px;
-  border-radius: 500px;
-
-  -webkit-transition: width 1s, height 1s, margin-top 1s,  margin-left 1s;
-  -moz-transition: width 1s, height 1s,  margin-top 1s, margin-left 1s;
-  -o-transition: width 1s, height 1s,  margin-top 1s, margin-left 1s;
-  transition: width 1s, height 1s,  margin-top 1s, margin-left 1s;
-  z-index: -1;
-}
-.order_button:hover:before{
-  width: 500px;
-  height: 500px;
-  margin-left: -250px;
-  margin-top: -250px;
+  background: rgba(1, 158, 206, 0.9);
+  transition: .5s all;
+  -webkit-transition: 1.2s all;
+  -o-transition: 1.2s all;
+  -ms-transition: 1.2s all;
+  -moz-transition: 1.2s all;
 }
 
 
@@ -130,7 +116,7 @@ body {
 }
 
 .modal-wrap {
-  border: rgba(14, 103, 0, 0.75) solid 3px;
+  border: rgba(1, 158, 206, 0.9) solid 3px;
   padding-top: 5px;
 }
 
@@ -201,7 +187,7 @@ body {
   -moz-border-radius:5px;
   -o-border-radius:5px;
   -ms-border-radius:5px;
-  border: 1px solid rgba(14, 103, 0, 0.75);
+  border: 1px solid rgba(1, 158, 206, 0.9);
   background:none;
   transition: .5s all;
   -webkit-transition: .5s all;
@@ -212,7 +198,7 @@ body {
   display: block;
 }
 .order_form input[type=submit]:hover {
-  background: rgba(14, 103, 0, 0.75);
+  background: rgba(1, 158, 206, 0.9);
   border: 1px solid #fff;
   color:#fff;
   transition: .5s all;
