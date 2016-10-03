@@ -93,7 +93,7 @@ body {
   text-align: center;
   display: table;
 
-  transition: .5s all;
+  transition: 1.2s all;
   -webkit-transition: 1.2s all;
   -o-transition: 1.2s all;
   -ms-transition: 1.2s all;
@@ -103,7 +103,7 @@ body {
 .order_button:hover{
   color: #ffffff;
   background: rgba(1, 158, 206, 0.9);
-  transition: .5s all;
+  transition: 1.2s all;
   -webkit-transition: 1.2s all;
   -o-transition: 1.2s all;
   -ms-transition: 1.2s all;
